@@ -1,0 +1,3 @@
+/target
+/plugin-loader/Cargo.lock
+/plugins/**/Cargo.lock

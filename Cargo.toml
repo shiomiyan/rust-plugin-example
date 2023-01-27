@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "plugin-loader",
+    "plugins/*",
+    "runner"
+]
