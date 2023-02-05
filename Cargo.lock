@@ -13,6 +13,7 @@ name = "fuga"
 version = "0.1.0"
 dependencies = [
  "once_cell",
+ "types",
 ]
 
 [[package]]
@@ -20,6 +21,7 @@ name = "hoge"
 version = "0.1.0"
 dependencies = [
  "once_cell",
+ "types",
 ]
 
 [[package]]
@@ -43,6 +45,7 @@ name = "plugin-loader"
 version = "0.1.0"
 dependencies = [
  "libloading",
+ "types",
 ]
 
 [[package]]
@@ -51,6 +54,10 @@ version = "0.1.0"
 dependencies = [
  "plugin-loader",
 ]
+
+[[package]]
+name = "types"
+version = "0.1.0"
 
 [[package]]
 name = "winapi"

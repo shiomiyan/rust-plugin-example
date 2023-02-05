@@ -2,5 +2,9 @@
 members = [
     "plugin-loader",
     "plugins/*",
-    "runner"
+    "runner",
+    "types"
 ]
+
+[workspace.dependencies]
+types = { path = "./types" }
